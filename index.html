@@ -1,1 +1,232 @@
-<h1>Meu futuro portfólio! Em construção...</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Brancalhão Curcio | Portfólio</title>
+    <style>
+        /* Estilos Gerais - Tema Escuro (Preto e Branco) */
+        :root {
+            --bg-dark: #000000;
+            --bg-light-dark: #121212;
+            --text-main: #ffffff;
+            --text-muted: #cccccc;
+            --border-color: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-main);
+            background-color: var(--bg-dark);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+            padding: 0;
+            color: var(--text-main);
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--text-main);
+            transition: all 0.3s ease;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Cabeçalho (Header) */
+        header {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: var(--text-muted);
+        }
+
+        /* Seções */
+        section {
+            padding: 60px 0;
+            background-color: var(--bg-dark);
+            border-bottom: 1px solid #333333;
+        }
+
+        section:nth-child(even) {
+            background-color: var(--bg-light-dark);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            position: relative;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .section-title::after {
+            content: '';
+            width: 60px;
+            height: 3px;
+            background-color: var(--border-color);
+            display: block;
+            margin: 15px auto 0;
+        }
+
+        /* Sobre Mim */
+        .about-content {
+            font-size: 1.1rem;
+            text-align: justify;
+            max-width: 800px;
+            margin: 0 auto;
+            color: var(--text-muted);
+        }
+
+        .about-content p {
+            margin-bottom: 20px;
+        }
+
+        /* Habilidades */
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .skill-tag {
+            background-color: transparent;
+            color: var(--text-main);
+            padding: 10px 20px;
+            border: 1px solid var(--border-color);
+            border-radius: 0; /* Bordas retas para um visual mais agressivo/sóbrio */
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .skill-tag:hover {
+            background-color: var(--text-main);
+            color: var(--bg-dark);
+        }
+
+        /* Contato */
+        .contact-content {
+            text-align: center;
+            font-size: 1.2rem;
+            color: var(--text-muted);
+        }
+
+        .contact-content p {
+            margin-bottom: 15px;
+        }
+
+        .contact-link {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            border: 2px solid var(--border-color);
+            color: var(--text-main);
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-link:hover {
+            background-color: var(--text-main);
+            color: var(--bg-dark);
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: var(--bg-dark);
+            color: #666666;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9rem;
+            border-top: 1px solid #333333;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho Principal -->
+    <header>
+        <div class="container">
+            <h1>Felipe Brancalhão Curcio</h1>
+            <p>Desenvolvedor de Software | Foco em C/C++</p>
+        </div>
+    </header>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <p>Minha jornada na tecnologia começou cedo. Ainda no 6º ano do ensino fundamental, tive meu primeiro contato com a programação através de aulas introdutórias oferecidas pelo colégio Objetivo. Essa experiência inicial plantou uma semente que me acompanhou até o ensino superior.</p>
+                <p>Iniciei minha graduação no curso de Sistemas de Informação na EACH-USP. Buscando desafios técnicos mais profundos e um embasamento matemático e algorítmico mais rigoroso, realizei a transferência para o Bacharelado em Ciência da Computação (BCC) no Instituto de Matemática e Estatística (IME-USP), onde atualmente desenvolvo minha base analítica.</p>
+                <p>Além da minha trajetória acadêmica na área de exatas, possuo experiência profissional prévia atuando no setor de vendas e atendimento direto ao público em duas ocasiões. Essa vivência prática no comércio me proporcionou o desenvolvimento de fortes habilidades de comunicação, escuta ativa e facilidade para a resolução rápida de problemas — competências interpessoais que considero essenciais para complementar o perfil de um desenvolvedor de software de excelência.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="habilidades">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-container">
+                <div class="skill-tag">Linguagem C</div>
+                <div class="skill-tag">Linguagem C++</div>
+                <div class="skill-tag">Estruturas de Dados</div>
+                <div class="skill-tag">Algoritmos</div>
+                <div class="skill-tag">Lógica de Programação</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-content">
+                <p>Fique à vontade para entrar em contato para oportunidades ou networking:</p>
+                <div style="margin-top: 30px;">
+                    <a href="mailto:curcio.felipe@usp.br" class="contact-link">E-mail</a>
+                    <a href="https://www.linkedin.com/in/felipe-brancalh%C3%A3o-curcio-41774b3a5" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Felipe Brancalhão Curcio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
