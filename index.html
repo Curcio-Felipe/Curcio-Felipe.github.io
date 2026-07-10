@@ -92,8 +92,8 @@
             margin: 15px auto 0;
         }
 
-        /* Sobre Mim */
-        .about-content {
+        /* Textos (Sobre e Trilhas) */
+        .text-content {
             font-size: 1.1rem;
             text-align: justify;
             max-width: 800px;
@@ -101,8 +101,12 @@
             color: var(--text-muted);
         }
 
-        .about-content p {
+        .text-content p {
             margin-bottom: 20px;
+        }
+        
+        .text-content strong {
+            color: var(--text-main);
         }
 
         /* Habilidades */
@@ -120,7 +124,7 @@
             color: var(--text-main);
             padding: 10px 20px;
             border: 1px solid var(--border-color);
-            border-radius: 0; /* Bordas retas para um visual mais agressivo/sóbrio */
+            border-radius: 0;
             font-weight: bold;
             font-size: 1.1rem;
             text-transform: uppercase;
@@ -185,10 +189,21 @@
     <section id="sobre">
         <div class="container">
             <h2 class="section-title">Sobre Mim</h2>
-            <div class="about-content">
+            <div class="text-content">
                 <p>Minha jornada na tecnologia começou cedo. Ainda no 6º ano do ensino fundamental, tive meu primeiro contato com a programação através de aulas introdutórias oferecidas pelo colégio Objetivo. Essa experiência inicial plantou uma semente que me acompanhou até o ensino superior.</p>
                 <p>Iniciei minha graduação no curso de Sistemas de Informação na EACH-USP. Buscando desafios técnicos mais profundos e um embasamento matemático e algorítmico mais rigoroso, realizei a transferência para o Bacharelado em Ciência da Computação (BCC) no Instituto de Matemática e Estatística (IME-USP), onde atualmente desenvolvo minha base analítica.</p>
                 <p>Além da minha trajetória acadêmica na área de exatas, possuo experiência profissional prévia atuando no setor de vendas e atendimento direto ao público em duas ocasiões. Essa vivência prática no comércio me proporcionou o desenvolvimento de fortes habilidades de comunicação, escuta ativa e facilidade para a resolução rápida de problemas — competências interpessoais que considero essenciais para complementar o perfil de um desenvolvedor de software de excelência.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Trilhas (NOVA) -->
+    <section id="trilhas">
+        <div class="container">
+            <h2 class="section-title">Especialização Acadêmica</h2>
+            <div class="text-content">
+                <p>No decorrer do curso no IME-USP, decidi direcionar a escolha das minhas disciplinas optativas para duas trilhas principais: <strong>Inteligência Artificial</strong> e <strong>Aprendizado de Máquina (Ciência de Dados)</strong>.</p>
+                <p>A escolha por esses caminhos une o meu interesse pessoal à visão estratégica de carreira. São áreas pelas quais tenho um fascínio genuíno, focadas em resolver problemas complexos e modelar sistemas inteligentes. Ao mesmo tempo, representam um dos setores com maior aquecimento e demanda no mercado de tecnologia atual. Meu objetivo é aliar o rigor algorítmico e a eficiência de execução do C/C++ à construção de modelos preditivos e soluções baseadas em IA.</p>
             </div>
         </div>
     </section>
